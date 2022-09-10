@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input {
+        border: 1px solid rgba(28, 52, 84, 0.26);
+        border-radius: 4px;
+        padding: 8px 14px;
+        height: 56px;
+    }
+    .input:focus {
+        @apply outline-[#1676F3] outline-offset-0
+    }
+}
