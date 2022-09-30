@@ -1,0 +1,31 @@
+POST http://localhost:4000/user/register
+Content-Type: application/json
+
+{
+    "username" : "user",
+    "email" : "email",
+    "password" : "password"
+}
+
+###
+GET http://localhost:4000/
+
+###
+POST http://localhost:4000/user/login
+Content-Type: application/json
+
+{
+    "email":"email",
+    "password":"password"
+}
+
+###
+GET http://localhost:4000/onlyConnectedUsers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MzMwOWU1MDIzZjJiYjc0MzMyNDU2MTEiLCJpYXQiOjE2NjQyMjE5NDEsImV4cCI6MTY2NDIyNTU0MX0.InbfajC-cM2IsGvIlM---rn5RKZYP_u40uebzyFWrY8
+
+
+
+
+
+
+
